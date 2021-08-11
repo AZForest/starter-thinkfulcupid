@@ -66,6 +66,7 @@ header {
   font-family: "Tangerine", cursive;
   font-size: 72px;
   color: #ecdbc9;
+  margin: 0 auto;
 }
 
 header nav ul {
@@ -150,7 +151,7 @@ footer p {
 
   .logo {
     font-size: 34px;
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
     padding: 0;
   }
 
@@ -181,4 +182,11 @@ footer p {
     font-size: 14px;
     padding: 10px 20px;
   }
+
+
+  #about .group .item-double {
+    align-content: center;
+    margin: auto 0px;
+  }
+
 }
