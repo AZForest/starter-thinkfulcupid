@@ -37,20 +37,25 @@ main img {
 
 /* ---  Groups & Items --- */
 
+.group {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
 @media (min-width: 480px) {
   .group {
     display: flex;
     flex-direction: row;
   }
   
-  .item {
-    flex: 1;
-    margin: 10px;
-  }
-  
-  .item-double {
-    flex: 2;
-  }
 }
 
 
